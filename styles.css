@@ -1,0 +1,52 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            /* Cover the entire viewport */
+            background-attachment: fixed;
+            /* Fixed background */
+        }
+        
+        .header {
+            padding: 50px 0;
+            background-color: (#1f5f19);
+            /* Semi-transparent white background */
+        }
+        
+        .content {
+            padding: 50px 0;
+            background-color: (#1f5f19);
+            /* Semi-transparent white background */
+        }
+        
+        .background-logo {
+            position: absolute;
+            top: 20px;
+            /* Adjust as needed */
+            left: 20px;
+            /* Adjust as needed */
+            z-index: 1;
+            /* Ensure the logo appears above the background */
+            opacity: 0.5;
+            /* Adjust the opacity as desired */
+        }
+        
+        .management-methods {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .management-method {
+            width: 30%;
+            /* Adjust as needed */
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px (#1f5f19);
+        }
